@@ -1,7 +1,7 @@
 package org.example.read_a_large_file_line_by_line;
 
 import java.io.*;
-
+//LargeFileReader--> Class created for reading data from large file and printing line containing "error"
 public class LargeFileReader {
     public static void main(String[] args) {
         String filePath = "C:\\Users\\udit0\\OneDrive\\Documents\\CapgeminiTraining\\Assignments\\Week4\\Day03\\src\\main\\java\\org\\example\\read_a_large_file_line_by_line\\large_file.txt";
