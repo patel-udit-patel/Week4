@@ -2,7 +2,7 @@ package org.example.piped_streams_inter_thread_communication;
 
 import java.io.IOException;
 import java.io.PipedOutputStream;
-
+//WriterThread-> extends Thread class for writing data from separate thread
 class WriterThread extends Thread {
     private PipedOutputStream pos;
 

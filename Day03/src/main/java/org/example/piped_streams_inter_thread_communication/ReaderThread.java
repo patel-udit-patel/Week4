@@ -2,7 +2,7 @@ package org.example.piped_streams_inter_thread_communication;
 
 import java.io.IOException;
 import java.io.PipedInputStream;
-
+//ReaderThread-> extends Thread class for reading data in separate thread
 class ReaderThread extends Thread {
     private PipedInputStream pis;
 
